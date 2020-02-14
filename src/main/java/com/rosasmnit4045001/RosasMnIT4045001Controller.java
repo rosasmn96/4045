@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class RosasMnIT4045001Controller {
 	
 	@RequestMapping("/index")
-	public String start() {
+	public String index() {
 		return "index";
 	}
 	
